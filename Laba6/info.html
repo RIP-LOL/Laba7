@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Информация о Том Харди</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#sidebar" data-bs-offset="50">
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Том Харди</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="info.html">Основная информация</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Laba6.html">Фильмы Тома Харди</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <div id="actorCarousel" class="carousel slide mb-4" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="Lab6-1.jpg" class="d-block w-100" alt="1 картинка">
+            </div>
+            <div class="carousel-item">
+                <img src="Lab6-2.jpg" class="d-block w-100" alt="2 картинка">
+            </div>
+            <div class="carousel-item">
+                <img src="Lab6-3.jpg" class="d-block w-100" alt="3 картинка">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#actorCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Предыдущий</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#actorCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Следующий</span>
+        </button>
+    </div>
+
+    <div class="row">
+        <div class="col-md-3">
+            <div id="sidebar" class="position-sticky top-10">
+                <h5>Содержание</h5>
+                <nav class="nav flex-column">
+                    <a class="nav-link active" href="#carousel">Фотки</a>
+                    <a class="nav-link" href="#movies">Фильмы</a>
+                    <a class="nav-link" href="#Info">Информация</a>
+                </nav>
+            </div>
+        </div>
+
+        <div class="col-md-9">
+            <h2 id="movies">Список фильмов с Томом Харди</h2>
+<div class="row">
+    <div class="col-md-4 mb-4">
+        <div class="card">
+            <img src="Tabo.jpg" class="card-img-top" alt="1 фильм">
+            <div class="card-body">
+                <h5 class="card-title">Табу</h5>
+                <p class="card-text">Не смотрел еще</p>
+                <a href="https://www.kinopoisk.ru/series/932068/" class="btn btn-primary">Смотреть на Кинопоиск</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 mb-4">
+        <div class="card">
+            <img src="Venom.jpg" class="card-img-top" alt="2 фильм">
+            <div class="card-body">
+                <h5 class="card-title">Веном </h5>
+                <p class="card-text">Лютая имба</p>
+                <a href="https://www.kinopoisk.ru/film/463634/" class="btn btn-primary">Смотреть на Кинопоиск</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 mb-4">
+        <div class="card">
+            <img src="Legend.jpg" class="card-img-top" alt="3 Фильм">
+            <div class="card-body">
+                <h5 class="card-title">Легенда</h5>
+                <p class="card-text">Имба</p>
+                <a href="https://www.kinopoisk.ru/film/839954/" class="btn btn-primary">Смотреть на Кинопоиск</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+            <h1 id="Info">Информация об актёре</h1>
+            <button class="btn btn-info" data-bs-toggle="collapse" data-bs-target="#infoCollapse">Показать/Скрыть информацию</button>
+            <div id="infoCollapse" class="collapse mt-3">
+                <div class="container1">
+                    <h1>Том Харди</h1>
+                    <div class="bio">
+                        <p>Том Харди — британский актёр, продюсер и сценарист.</p>
+                        
+                        <p>Родился 15 сентября 1977 года в Хаммерсмите, Лондон.</p>
+                
+                        <p>Наиболее известные роли исполнил в фильмах: «Бронсон» (2008), «Воин» (2011), «Общак» (2014),</p>
+                
+                        <p>«Легенда» (2015), «Выживший» (2015), «Безумный Макс: Дорога ярости» (2015), «Дюнкерк» (2017), «Веном» (2018).</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
